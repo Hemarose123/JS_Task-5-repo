@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Numbers Divisible by 5</title>
+  </head>
+  <body>
+    <h2>Numbers Divisible by 5</h2>
+    <p id="output"></p>
+
+    <script>
+      let numbers = [10, 23, 45, 67, 50, 30, 8];
+      let result = numbers.filter((num) => num % 5 === 0).join(", ");
+      document.getElementById("output").innerText = "Numbers: " + result;
+    </script>
+  </body>
+</html>

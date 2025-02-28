@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product or Sum</title>
+  </head>
+  <body>
+    <h2>Product or Sum of Two Integers</h2>
+    <p id="output"></p>
+
+    <script>
+      let a = 50,
+        b = 15;
+      let product = a * b;
+      let result = product > 500 ? a + b : product;
+      document.getElementById("output").innerText = `Result: ${result}`;
+    </script>
+  </body>
+</html>

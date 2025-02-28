@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vowel or Consonant</title>
+  </head>
+  <body>
+    <h2>Check Vowel or Consonant</h2>
+    <p id="output"></p>
+
+    <script>
+      let char = "a";
+      let vowels = ["a", "e", "i", "o", "u"];
+      let result = vowels.includes(char.toLowerCase()) ? "Vowel" : "Consonant";
+      document.getElementById("output").innerText =
+        "Character " + char + " is a " + result;
+    </script>
+  </body>
+</html>

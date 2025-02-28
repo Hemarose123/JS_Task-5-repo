@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Even Numbers</title>
+  </head>
+  <body>
+    <h2>Even Numbers from 1 to 20</h2>
+    <p id="output"></p>
+
+    <script>
+      let result = "";
+      for (let i = 2; i <= 20; i += 2) {
+        result += i + " ";
+      }
+      document.getElementById("output").innerText = result;
+    </script>
+  </body>
+</html>

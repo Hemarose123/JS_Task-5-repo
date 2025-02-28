@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Draw Patterns</title>
+  </head>
+  <body>
+    <h2>Triangle Pattern</h2>
+    <pre id="output"></pre>
+
+    <script>
+      let pattern = "";
+      for (let i = 1; i <= 5; i++) {
+        for (let j = 1; j <= i; j++) {
+          pattern += "* ";
+        }
+        pattern += "\n";
+      }
+      document.getElementById("output").innerText = pattern;
+    </script>
+  </body>
+</html>
